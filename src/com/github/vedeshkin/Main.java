@@ -18,7 +18,7 @@ public class Main {
 
         Arrays.fill(data, defaultValue);
         long start = System.currentTimeMillis();
-        for (int i = 0; i < data.length; i++) //However.there is should be away to do it in more moder style using streams
+        for (int i = 0; i < data.length; i++) //However, there is should be away to do it in more moder style using streams
         {
             data[i] = (float) (data[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
